@@ -49,13 +49,13 @@ namespace EF_CodeFirst.Migrations
                 columns: new[] { "GradeId", "GradeName", "Section", "StudentID" },
                 values: new object[,]
                 {
-                    { 1, "Math", "ASP", 1 },
-                    { 2, "Biology", "ASP", 1 },
-                    { 3, "Geography ", "ASP", 1 },
-                    { 4, "Computer Science", "ASP", 2 },
-                    { 5, "Physics", "ASP", 2 },
-                    { 6, "English", "ASP", 2 },
-                    { 7, "History", "ASP", 2 }
+                    { 1, "Math", "A", 1 },
+                    { 2, "Biology", "A", 1 },
+                    { 3, "Geography ", "A", 1 },
+                    { 4, "Computer Science", "A", 2 },
+                    { 5, "Physics", "A", 2 },
+                    { 6, "English", "A", 2 },
+                    { 7, "History", "A", 2 }
                 });
 
             migrationBuilder.InsertData(

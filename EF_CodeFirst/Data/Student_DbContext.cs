@@ -45,13 +45,13 @@ public class Student_DbContext : DbContext
 
 
                 modelBuilder.Entity<Grade>().HasData(
-                new Grade { GradeId = 1, GradeName = "Math", Section = "ASP", StudentID = 1 },
-                new Grade { GradeId = 2, GradeName = "Biology", Section = "ASP", StudentID = 1 },
-                new Grade { GradeId = 3, GradeName = "Geography ", Section = "ASP", StudentID = 1 },
-                new Grade { GradeId = 4, GradeName = "Computer Science", Section = "ASP", StudentID = 2 },
-                new Grade { GradeId = 5, GradeName = "Physics", Section = "ASP", StudentID = 2 },
-                new Grade { GradeId = 6, GradeName = "English", Section = "ASP", StudentID = 2 },
-                new Grade { GradeId = 7, GradeName = "History", Section = "ASP", StudentID = 2 }
+                new Grade { GradeId = 1, GradeName = "Math", Section = "A", StudentID = 1 },
+                new Grade { GradeId = 2, GradeName = "Biology", Section = "A", StudentID = 1 },
+                new Grade { GradeId = 3, GradeName = "Geography ", Section = "A", StudentID = 1 },
+                new Grade { GradeId = 4, GradeName = "Computer Science", Section = "A", StudentID = 2 },
+                new Grade { GradeId = 5, GradeName = "Physics", Section = "A", StudentID = 2 },
+                new Grade { GradeId = 6, GradeName = "English", Section = "A", StudentID = 2 },
+                new Grade { GradeId = 7, GradeName = "History", Section = "A", StudentID = 2 }
             );
 
         //    public int StudentID { get; set; }
